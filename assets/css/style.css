@@ -189,16 +189,13 @@
         font-weight: bold;
     }
     .header-text .container p{
-        position: relative;
         font-size: 14px;
         right: 30px;
     }
     .header-text button{
-        position: relative;
-        left: 15px;
+        margin-left: 30vh;
     }
     .header-text img{
-        position: relative;
         width: 662.8px;
         height: 400px;
         right: 50px;
