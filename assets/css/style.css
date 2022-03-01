@@ -56,10 +56,10 @@
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 480px;
+    width: 280px;
 }
 .header-text button{
-    margin-left: 14vh;
+    margin-left: 2vh;
     margin-top: 5px;
     padding: 5px 50px;
     border: 1px solid black;
@@ -124,7 +124,7 @@
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 480px;
+    width: 280px;
 }
 
 @media (min-width: 768px) { 
