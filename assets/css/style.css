@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
+*
+{
+    
+}
+/* Navbar */
+
+.navbar-brand{
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.navbar-brand h4{
+    font-size: 24px;
+    font-family: 'Medula One';
+    font-weight: bold;
+}
+.navbar-brand p{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.navbar-nav{
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Header Text */
+.header-text{
+    height: auto;
+    width: auto;
+    margin: 10% 0;
+}
+.header-text .container{
+    margin-top: 50px;
+}
+.container h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.container h2 span{
+    color: #4f9964;
+    font-weight: bold;
+}
+.header-text .container p{
+    font-size: 12px;
+    margin-top: 20px;
+    text-justify: center;
+    text-align: center;
+}
+.header-text img{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 480px;
+}
+.header-text button{
+    margin-left: 18vh;
+    margin-top: 5px;
+    padding: 5px 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    background: transparent;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'quicksand';
+    font-weight: 500;
+}
+.header-text button:hover{
+    border: none;
+    background: #4f9964;
+    color: aliceblue;
+    border-color: none;
+    box-shadow: none;
+}
+.fa{
+    position: relative;
+    overflow: hidden;
+}
+.fa p{
+    position: relative;
+    letter-spacing: 5px;
+    left: 210px;
+    top: 5px;
+}
+.fa a{
+    color: black;
+    text-decoration: none;
+    top: 20px;
+}
+.fa i{
+    position: relative;
+    left: 230px;
+}
+.fa a:hover{
+    color: #4f9964;
+}
+
+/* Body Content */
+
+.body-content{
+    
+}
+.body-content h4{
+    text-align: center;
+}
+.body-content h4 span{
+    color: #4f9964;
+    font-weight: bold;
+}
+.body-content p{
+    font-size: 12px;
+    margin-top: 20px;
+    text-justify: center;
+    text-align: center;
+}
+.body-content img{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 480px;
+}
+
+@media (min-width: 768px) { 
+    .header-text img{
+        position: relative;
+        width: 662.8px;
+        height: 400px;
+        right: 130px;
+        bottom: 85px;
+    }
+    .header-text button{
+        position: relative;
+        right: 60px;
+    }
+    .header-text button:hover{
+        border: none;
+        background: #4f9964;
+        color: aliceblue;
+        border-color: none;
+        box-shadow: none;
+    }
+    .fa{
+        position: relative;
+    }
+    .fa p{
+        position: relative;
+        letter-spacing: 5px;
+        left: 330px;
+        top: 5px;
+    }
+    .fa a{
+        color: black;
+        text-decoration: none;
+        top: 20px;
+    }
+    .fa i{
+        position: relative;
+        left: 350px;
+    }
+    .fa a:hover{
+        color: #4f9964;
+    }
+}
+@media (min-width: 1200px),(min-width: 1400px),(min-width: 992px) { 
+    /* navbar */
+    .navbar-nav{
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-item{
+        margin-right: 20px;
+
+    }
+    /* Header Text */
+    .header-text{
+        margin-top: 100px;
+    }
+    .header-text .container h2{
+        margin-top: 100px;
+        margin-right: 50px;
+        font-size: 34px;
+        font-weight: bold;
+    }
+    .header-text .container p{
+        position: relative;
+        font-size: 14px;
+        right: 30px;
+    }
+    .header-text button{
+        position: relative;
+        left: 15px;
+    }
+    .header-text img{
+        position: relative;
+        width: 662.8px;
+        height: 400px;
+        right: 50px;
+        bottom: 85px;
+    }
+    .fa{
+    position: relative;
+    top: 10px;
+    overflow: visible;
+    }
+    .fa p{
+        position: relative;
+        letter-spacing: 5px;
+        left: 500px;
+    }
+    .fa a{
+        color: black;
+    }
+    .fa i{
+        position: relative;
+        left: 526px;
+    }
+    .body-content{
+        margin-top: 450px;
+        margin-bottom: auto;
+    }
+    .body-content h4{
+        text-align: center;
+    }
+    .body-content h4 span{
+        color: #4f9964;
+        font-weight: bold;
+    }
+    .body-content p{
+        font-size: 12px;
+        margin-top: 20px;
+        text-justify: center;
+        text-align: center;
+    }
+    .body-content img{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 400px;
+        bottom: 175px;
+    }
+}
