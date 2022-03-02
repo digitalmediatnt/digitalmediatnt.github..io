@@ -4,6 +4,7 @@
 {
     
 }
+@media (min-width: 360px) 
 /* Navbar */
 .navbar{
     margin: 0 2px;
@@ -61,7 +62,7 @@
     width: 350px;
 }
 .header-text button{
-    margin-left: 12vh;
+    margin-left: 5.5em;
     margin-top: 5px;
     padding: 5px 50px;
     border: 1px solid black;
@@ -204,21 +205,14 @@
         bottom: 85px;
     }
     .fa{
-    position: relative;
-    top: 10px;
-    overflow: visible;
-    }
-    .fa p{
         position: relative;
-        letter-spacing: 5px;
-        left: 500px;
-    }
-    .fa a{
-        color: black;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
     }
     .fa i{
         position: relative;
-        left: 526px;
+        left: 17.1em;
     }
     .body-content{
         margin-top: 450px;
