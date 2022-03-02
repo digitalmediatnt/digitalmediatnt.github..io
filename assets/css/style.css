@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
-*
-{
-    
-}
-@media (min-width: 360px) {
-/* Navbar */
 
+/* Navbar */
     .navbar{
-        margin: 0 2px;
+        margin: 5px 0;
     }
     .navbar-brand{
         margin-top: 10px;
@@ -26,219 +21,60 @@
         margin-top: -10px;
         letter-spacing: 2px;
     }
-    .navbar-nav{
+    .navbar-nav .nav-item{
         font-family: 'Quicksand';
         font-size: 16px;
         font-weight: 600;
+        margin-right: 10px;
     }
 
-    /* Header Text */
-    .header-text{
-        height: auto;
-        width: auto;
-        margin: 10% 0;
-    }
-    .header-text .container{
-        margin-top: 50px;
-    }
-    .container h2{
-        text-align: center;
-        font-size: 24px;
-        font-weight: 400;
-    }
-    .container h2 span{
-        color: #4f9964;
-        font-weight: bold;
-    }
-    .header-text .container p{
-        font-size: 12px;
-        margin-top: 20px;
-        text-justify: center;
-        text-align: center;
-    }
-    .header-text img{
-        justify-content: center;
-        align-items: center;
-        height: 300px;
-        width: 350px;
-    }
-    .header-text button{
-        margin-left: 5.5em;
-        margin-top: 5px;
-        padding: 5px 50px;
-        border: 1px solid black;
-        border-radius: 10px;
-        color: black;
-        background: transparent;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        font-size: 14px;
+    /* Header text */
+    .container{
         font-family: 'quicksand';
-        font-weight: 500;
     }
-    .header-text button:hover{
+    .container p{
+        font-size: 14px;
+    }
+    .container span{
+        color: #57a06c;
+        font-weight: 600;
+    }
+    .container button{
+        letter-spacing: 2px;
+        padding: 3px 100px;
+        border: 1px solid black;
+    }
+    .container button:hover{
         border: none;
-        background: #4f9964;
+        background: #57a06c;
         color: aliceblue;
-        border-color: none;
-        box-shadow: none;
+        box-shadow: none !important;
     }
-    .fa{
+    .fafont {
         position: relative;
-        overflow: hidden;
+        bottom: 50px;
     }
-    .fa p{
-        position: relative;
-        letter-spacing: 5px;
-        left: 210px;
-        top: 5px;
-    }
-    .fa a{
-        color: black;
+    .fafont a{
         text-decoration: none;
-        top: 20px;
+        color: black;
     }
-    .fa i{
-        position: relative;
-        left: 230px;
-    }
-    .fa a:hover{
-        color: #4f9964;
-    }
-
-    /* Body Content */
-
-    .body-content{
+    .fafont a:hover{ 
+        color: #1e4729;
         
     }
-    .body-content h4{
-        text-align: center;
-    }
-    .body-content h4 span{
-        color: #4f9964;
-        font-weight: bold;
-    }
-    .body-content p{
-        font-size: 12px;
-        margin-top: 20px;
-        text-justify: center;
-        text-align: center;
-    }
-    .body-content img{
-        justify-content: center;
-        align-items: center;
-        height: 300px;
-        width: 350px;
-    }
-}
-
-@media (min-width: 768px) {
-    .header-text img{
-        position: relative;
-        width: 662.8px;
-        height: 400px;
-        right: 130px;
-        bottom: 85px;
-    }
-    .header-text button{
-        position: relative;
-        margin-left: 100px;
-    }
-    .header-text button:hover{
-        border: none;
-        background: #4f9964;
-        color: aliceblue;
-        border-color: none;
-        box-shadow: none;
-    }
-    .fa{
-        position: relative;
-    }
-    .fa p{
-        position: relative;
+    .fafont a p{
+        text-transform: uppercase;
         letter-spacing: 5px;
-        left: 330px;
-        top: 5px;
-    }
-    .fa a{
-        color: black;
-        text-decoration: none;
-        top: 20px;
-    }
-    .fa i{
-        position: relative;
-        left: 350px;
-    }
-    .fa a:hover{
-        color: #4f9964;
-    }
-}
-@media (min-width: 1200px),(min-width: 1400px),(min-width: 992px) { 
-    /* navbar */
-    .navbar-nav{
-        margin-left: auto;
-        margin-top: 10px;
-    }
-    .navbar-nav .nav-item{
-        margin-right: 20px;
-
-    }
-    /* Header Text */
-    .header-text{
-        margin-top: 100px;
-        margin-bottom: auto;
-    }
-    .header-text .container h2{
-        margin-top: 100px;
-        margin-right: 50px;
-        font-size: 34px;
+        font-family:'quicksand';
+        font-size: 12px;
         font-weight: bold;
     }
-    .header-text .container p{
-        font-size: 14px;
-        right: 30px;
-    }
-    .header-text button{
-        margin-left: 25vh;
-    }
-    .header-text img{
-        width: 662.8px;
-        height: 400px;
-        right: 50px;
-        bottom: 85px;
-    }
-    .fa{
+    .fafont a i{
         position: relative;
+        bottom: 10px;
+    }
+    .fafont a i p{
         justify-content: center;
+        text-align: center;
         align-items: center;
-        overflow: visible;
     }
-
-    /* Body Content */
-    .body-content{
-        margin-top: 450px;
-        margin-bottom: auto;
-    }
-    .body-content h4{
-        text-align: left;
-        font-weight: 700;
-    }
-    .body-content h4 span{
-        color: #4f9964;
-        font-weight: bold;
-    }
-    .body-content p{
-        font-size: 14px;
-        margin-top: 20px;
-        text-justify: left;
-        text-align: left;
-    }
-    .body-content img{
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        width: 600px;
-        height: 400px;
-        bottom: 175px;
-    }
-}
