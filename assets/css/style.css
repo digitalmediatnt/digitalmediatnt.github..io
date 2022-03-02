@@ -43,12 +43,12 @@
         color: #57a06c;
         font-weight: 600;
     }
-    .container button .button-header{
+    .container .button-header{
         letter-spacing: 2px;
         padding: 3px 100px;
         border: 1px solid black;
     }
-    .container button .button-header:hover{
+    .container .button-header:hover{
         border: none;
         background: #57a06c;
         color: aliceblue;
