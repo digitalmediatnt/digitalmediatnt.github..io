@@ -4,7 +4,7 @@
 
 /* Navbar */
     .navbar{
-        margin: 5px 0;
+        margin: -25px 0;
     }
     .navbar-brand{
         margin-top: 10px;
@@ -84,7 +84,18 @@
     .body-content{
         position: relative;
         bottom: 200px; 
+    }
+    .contact a{
+        position: relative;
+        top: 50px;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.747);
+        font-size: 14px;
+        font-weight: bold;
     }    
+    .contact a:hover{
+        color: rgb(0, 0, 0);
+    }  
     .container .title{
         font-family: 'quicksand';
         letter-spacing: 5px;
