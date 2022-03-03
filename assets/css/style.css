@@ -127,6 +127,12 @@
         position: relative;
         left: 8.5em;
     }
+    .card-body .fawa{
+        left: 6.5em;
+    }
+    .card-body .faspin{
+        left: 5.5em;
+    }
     .card-body p{
         margin-top: 50px;
     }
