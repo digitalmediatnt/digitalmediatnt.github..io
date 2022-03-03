@@ -33,8 +33,12 @@
     .container{
         font-family: 'quicksand';
     }
+    .container h1, h2{
+        text-align: center;
+    }
     .container p{
         font-size: 14px;
+        text-align: center;
     }
     .container span{
         color: #57a06c;
@@ -170,6 +174,15 @@
 
     /* Phone & Tablet */
     @media (min-width: 576px), (min-width: 768px) { 
+        .container h1, h2{
+            text-align: left;
+            align-items: left;
+        }
+        .container p{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
         .fafont{
             visibility: visible;
         }
