@@ -57,7 +57,6 @@
     .fafont {
         position: relative;
         visibility: hidden;
-        bottom: 50px;
     }
     .fafont a{
         text-decoration: none;
