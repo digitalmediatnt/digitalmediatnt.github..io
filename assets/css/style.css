@@ -109,20 +109,24 @@
 
     /* Footer */
 
-    footer .container{
-        bottom: auto;
+    .footer{
+        margin-top: 10px;
+        justify-content: center;
+        text-align: center;
     }
-    footer .container a{
+    .footer a{
         text-decoration: none;
-        color: #212529;
+        color: rgba(0, 0, 0, 0.527);
     }
-    footer .container a:hover{
-        text-decoration: none;
-        color: #295736;
+    .footer a:hover{
+        color: rgba(0, 0, 0, 0.863);
     }
-    footer .container p{
-        font-weight: bold;
+    .footer span{
+        color: rgba(0, 0, 0, 0.527);
+        font-size: 14px;
+        margin-left: 10px;
     }
+
 
     /* Phone & Tablet */
     @media (min-width: 576px), (min-width: 768px) { 
