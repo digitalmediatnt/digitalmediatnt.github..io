@@ -178,9 +178,7 @@
             align-items: left;
         }
         .container p{
-            text-align: center;
-            align-items: center;
-            justify-content: center;
+            text-align: left;
         }
         .fafont{
             visibility: visible;
