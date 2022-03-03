@@ -125,6 +125,8 @@
     }
     .card-body i{
         position: relative;
+    }
+    .card-body .famail{
         left: 8.5em;
     }
     .card-body .fawa{
