@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Medula+One&display=swap');
 
-@media (min-width: 576px), (min-width: 768px) { 
-   .fafont{
-       visibility:hidden;
-   }
-}
 
 /* Navbar */
     .navbar{
@@ -57,7 +52,7 @@
     }
     .fafont {
         position: relative;
-        visibility: visible;
+        visibility: hidden;
         bottom: 50px;
     }
     .fafont a{
@@ -128,3 +123,10 @@
     footer .container p{
         font-weight: bold;
     }
+
+    /* Phone & Tablet */
+    @media (min-width: 576px), (min-width: 768px) { 
+        .fafont{
+            visibility: visible;
+        }
+     }
