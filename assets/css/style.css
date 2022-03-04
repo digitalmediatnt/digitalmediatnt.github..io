@@ -120,6 +120,10 @@
     .container .card{
         border-radius: 20px;
     }
+    .container .about{
+        text-align: center;
+        align-items: center;
+    }
     .body-card{
         margin-top: 20px;  
     }
@@ -176,6 +180,9 @@
         .container h1, h2{
             text-align: left;
             align-items: left;
+        }
+        .container .scroll{
+            text-align: center;
         }
         .container p{
             text-align: left;
