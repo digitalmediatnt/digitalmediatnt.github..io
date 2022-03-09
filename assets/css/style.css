@@ -86,7 +86,7 @@
     /* Body Content */
     .body-content{
         position: relative;
-        bottom: 200px; 
+        bottom: 100px; 
     }
     .contact a{
         position: relative;
@@ -154,6 +154,20 @@
     .card-body a:hover{
         color: rgb(0, 0, 0);
     }
+    .jumbroton{
+        background: #8deca8ea;
+    }
+    .jumbroton h4{
+        font-family: 'quicksand';
+        font-size: 45px;
+    }
+    .jumbroton p{
+        font-size: 14px
+    }
+    .text-contact{
+        visibility: hidden;
+    }
+    
     /* Footer */
 
     .footer{
@@ -189,5 +203,8 @@
         }
         .fafont{
             visibility: visible;
+        }
+        .text-contact{
+            visibility: visible !important;
         }
      }
