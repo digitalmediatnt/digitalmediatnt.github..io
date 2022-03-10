@@ -82,6 +82,10 @@
         text-align: center;
         align-items: center;
     }
+    .img-header{
+        position: relative;
+        left: 12%;
+    }
     
     /* Body Content */
     .body-content{
@@ -203,6 +207,10 @@
         }
         .fafont{
             visibility: visible;
+        }
+        .img-header{
+            position: relative;
+            left: auto;
         }
         .text-contact{
             visibility: visible !important;
